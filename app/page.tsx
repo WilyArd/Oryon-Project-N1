@@ -1,6 +1,7 @@
 "use client"; 
 
 import { useState } from 'react';
+import Link from 'next/link';
 
 export default function HomePage() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -49,7 +50,7 @@ export default function HomePage() {
           </div>
         </div>
       </header>
-      
+
       {/* Kosongan */}
 
     </main>
